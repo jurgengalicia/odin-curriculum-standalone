@@ -2,10 +2,6 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
-*{
-  border: red 0px solid;
-}
-
 body {
   margin: 0;
   background: #eee;
@@ -17,6 +13,7 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
+  padding: 8px;
   align-items: center;
 }
 
@@ -39,7 +36,6 @@ body {
   width: 250px;
   gap: 5px;
   margin-left: 10px;
-  padding: 5px;
   justify-content: space-around;
 }
 

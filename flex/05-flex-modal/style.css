@@ -4,6 +4,25 @@ html, body {
   height: 100%;
 }
 
+.right-container{
+  width: 425px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.top-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header{
+  font-weight: bold;
+  font-size: larger;
+}
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -15,10 +34,17 @@ body {
   justify-content: center;
 }
 
+*{
+  /* border: red 1px solid; */
+}
+
 .modal {
   background: white;
   width: 480px;
+  display: flex;
   border-radius: 10px;
+  padding: 10px;
+  gap: 8px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
